@@ -10,5 +10,5 @@ interface Startup
      * Вызывает Engine->initialStart()
      * @return mixed
      */
-    public function start();
+    public function start(string $dirPath);
 }

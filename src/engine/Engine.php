@@ -8,5 +8,5 @@ interface Engine
      * Подробности в файле README.md в главе Порядок работы
      * @return mixed
      */
-        public function initialStart();
+        public function initialStart(string $dirPath);
 }
