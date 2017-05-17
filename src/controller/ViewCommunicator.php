@@ -1,6 +1,5 @@
 <?php
 
-require_once __DIR__ . "/DataToViewDto.php";
 
 /**
  * Класс взаимодействия с GUI

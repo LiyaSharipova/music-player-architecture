@@ -1,7 +1,7 @@
 <?php
 
 
-class DataToViewDto
+class DataDto
 {
     /**
      * @var mixed Данные для отображения
@@ -9,12 +9,14 @@ class DataToViewDto
     private $data;
 
     /**
-     * @var string Тип данных для отображения
+     * @var string Тип данных для отображения.
+     * В зависимости от него данные будут отображаться по разному
      */
     private $type;
 
     /**
-     * @var string Где должны отображаться данные
+     * @var string Где должны отображаться данные.
+     * Определяет порядок и место в строке, которая выводится на консоли
      */
     private $destinationOnView;
 
