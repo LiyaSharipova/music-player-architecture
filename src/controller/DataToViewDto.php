@@ -3,9 +3,20 @@
 
 class DataToViewDto
 {
+    /**
+     * @var mixed Данные для отображения
+     */
     private $data;
+
+    /**
+     * @var string Тип данных для отображения
+     */
     private $type;
-    private $destindationOnView;
+
+    /**
+     * @var string Где должны отображаться данные
+     */
+    private $destinationOnView;
 
     /**
      * DataToViewDto constructor.
@@ -17,7 +28,7 @@ class DataToViewDto
     {
         $this->data = $data;
         $this->type = $type;
-        $this->destindationOnView = $destindationOnView;
+        $this->destinationOnView = $destindationOnView;
     }
 
     /**
@@ -55,17 +66,17 @@ class DataToViewDto
     /**
      * @return mixed
      */
-    public function getDestindationOnView()
+    public function getDestinationOnView()
     {
-        return $this->destindationOnView;
+        return $this->destinationOnView;
     }
 
     /**
-     * @param mixed $destindationOnView
+     * @param mixed $destinationOnView
      */
-    public function setDestindationOnView($destindationOnView)
+    public function setDestinationOnView($destinationOnView)
     {
-        $this->destindationOnView = $destindationOnView;
+        $this->destinationOnView = $destinationOnView;
     }
 
 

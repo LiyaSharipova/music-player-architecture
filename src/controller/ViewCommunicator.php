@@ -1,7 +1,11 @@
 <?php
 
+require_once __DIR__ . "/DataToViewDto.php";
+
 /**
- *
+ * Класс взаимодействия с GUI
+ * Получает данные при нажатии на кнопки
+ * Отправляет данные для отображения на GUI
  */
 interface ViewCommunicator
 {
