@@ -7,6 +7,7 @@ interface Startup
 {
     /**
      * Запускается приложение
+     * @param $dirPath string папка с треками, которые будут воспроизведены
      * Вызывает Engine->initialStart()
      * @return mixed
      */
